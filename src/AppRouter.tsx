@@ -1,7 +1,7 @@
+import ResumeV1 from "./pages/resume/V1"
 import { Route } from "react-router-dom"
 import { Routes } from "react-router-dom"
 import { BrowserRouter } from "react-router-dom"
-import ResumeV1 from "./pages/resume/v1"
 
 const AppRouter = () => {
     return (
