@@ -1,6 +1,8 @@
 import { useEffect } from "react"
-import { resumeV1Styles } from "../../lib"
-import { Document, PDFViewer, Page, StyleSheet, Text, View } from "@react-pdf/renderer"
+import { resumeFonts, resumeV1Styles } from "../../lib"
+import { Document, PDFViewer, Page, StyleSheet, Text, View, Font } from "@react-pdf/renderer"
+
+Font.register(resumeFonts.openSans)
 
 const ResumeV1 = () => {
     const styles = StyleSheet.create(resumeV1Styles)
@@ -17,8 +19,8 @@ const ResumeV1 = () => {
             <Document>
                 <Page style={styles.body} orientation="portrait">
                     <View style={styles.container}>
-
-                        <Text>
+                        <Text
+                            style={{ fontWeight: "light", fontStyle: "italic" }}>
                             Hello
                         </Text>
                     </View>

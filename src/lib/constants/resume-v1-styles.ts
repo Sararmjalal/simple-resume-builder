@@ -6,7 +6,7 @@ export const styles: Styles = {
     height: window.innerHeight,
   },
   body: {
-    // fontFamily: 'IRANSans',
+    fontFamily: 'Open Sans',
     textAlign: "right",
   },
   container: {
