@@ -1,0 +1,30 @@
+{
+  "generalInfo": {
+    "fullName": "Sara Jalal",
+    "role": "React.js & Next.js Developer",
+    "location": "Iran, Tehran",
+    "bornOn": "January, 2000",
+    "contact": [
+      {
+        "key": "email",
+        "title": "Email",
+        "value": "Sara.Jalal.115@gmail.com"
+      },
+      {
+        "key": "phone",
+        "title": "Phone",
+        "value": "+989031346086"
+      },
+      {
+        "key": "github",
+        "title": "Github",
+        "value": "github.com/Sararmjalal"
+      },
+      {
+        "key": "linkedIn",
+        "title": "LinkedIn",
+        "value": "linkedin.com/Sararmjalal"
+      }
+    ]
+  }
+}
