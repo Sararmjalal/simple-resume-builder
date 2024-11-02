@@ -77,5 +77,276 @@
         ]
       }
     ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "companies": [
+      {
+        "title": "Nikaat Corp",
+        "description": "Hybrid, Tehran, Iran",
+        "startTime": "February 2023",
+        "endTime": "",
+        "projects": [
+          {
+            "title": "Nikaat/Skenas",
+            "items": [
+              {
+                "key": "role",
+                "title": "Role",
+                "value": "Front-End Developer"
+              },
+              {
+                "key": "duration",
+                "title": "Duration",
+                "value": "1 month"
+              },
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "JavaScript, TypeScript, Tailwind CSS, React.js, Next.js, React-hook-form, Axios, React Query, Zustand, Docker"
+              },
+              {
+                "key": "description",
+                "title": "Description",
+                "value": "A banking super app focused on inquiries for credit and transactions."
+              },
+              {
+                "key": "achievements",
+                "title": "Key Achievements",
+                "value": "Achieved 100% Lighthouse score on mobile; streamlined cloud deployment with automated Docker build."
+              }
+            ]
+          },
+          {
+            "title": "Nikaat/Viracc-Panel",
+            "items": [
+              {
+                "key": "role",
+                "title": "Role",
+                "value": "Development Team Lead"
+              },
+              {
+                "key": "duration",
+                "title": "Duration",
+                "value": "1.5 years"
+              },
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "JavaScript, Bootstrap, Chart.js, React, Redux, Webpack, jQuery, Sass"
+              },
+              {
+                "key": "description",
+                "title": "Description",
+                "value": "An internal acceleration platform for startups, job seekers, students, and entrepreneurs, providing job search, business management, and financial tools."
+              },
+              {
+                "key": "achievements",
+                "title": "Highlights",
+                "value": "Led team and data structuring; collaborated with Product Manager; managed front-end/back-end responsibilities."
+              }
+            ]
+          },
+          {
+            "title": "Nikaat/Viracup",
+            "items": [
+              {
+                "key": "role",
+                "title": "Role",
+                "value": "Development Team Lead"
+              },
+              {
+                "key": "duration",
+                "title": "Duration",
+                "value": "Less than 1 week"
+              },
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": " JavaScript, Tailwind CSS, React.js, Axios, React Query"
+              },
+              {
+                "key": "description",
+                "title": "Description",
+                "value": "A contest platform integrated with Virac Panel, allowing dynamic content, images, and registration forms."
+              }
+            ]
+          },
+          {
+            "title": "Nikaat/Viracc-School",
+            "items": [
+              {
+                "key": "role",
+                "title": "Role",
+                "value": "Development Team Lead"
+              },
+              {
+                "key": "duration",
+                "title": "Duration",
+                "value": "1-2 months"
+              },
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "JavaScript, Bootstrap, Chart.js, React, Redux, Webpack, jQuery, Sass"
+              },
+              {
+                "key": "description",
+                "title": "Description",
+                "value": "Connected to Virac Panel for students to access courses and resources."
+              }
+            ]
+          },
+          {
+            "title": "Nikaat/Landing",
+            "items": [
+              {
+                "key": "role",
+                "title": "Role",
+                "value": "Front-End Developer"
+              },
+              {
+                "key": "duration",
+                "title": "Duration",
+                "value": "1-2 months"
+              },
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "TypeScript, React.js, Next.js, Material UI, SWR, Axios, Redux Toolkit"
+              },
+              {
+                "key": "description",
+                "title": "Description",
+                "value": "A modular landing page template for multiple Nikaat projects."
+              },
+              {
+                "key": "achievements",
+                "title": "Key Achievements",
+                "value": "Delivered end-to-end front-end and back-end integration, enabling element-level connectivity."
+              }
+            ]
+          },
+          {
+            "title": "Nikaat/Panel",
+            "items": [
+              {
+                "key": "role",
+                "title": "Role",
+                "value": "Front-End Developer"
+              },
+              {
+                "key": "duration",
+                "title": "Duration",
+                "value": "1-2 months"
+              },
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
+              },
+              {
+                "key": "description",
+                "title": "Description",
+                "value": "A PWA panel for Nikaat users with diet and workout programs, emulating a native app experience."
+              },
+              {
+                "key": "achievements",
+                "title": "Highlights",
+                "value": "Developed the first PWA for the platform, creating a native-like experience without external libraries."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Makeen Ideal Institution",
+        "description": "On-Site, Tehran, Iran",
+        "startTime": "June 2022",
+        "endTime": "January 2023",
+        "projects": [
+          {
+            "title": "Makeen/E-commerce",
+            "items": [
+              {
+                "key": "role",
+                "title": "Role",
+                "value": "Front-End Developer"
+              },
+              {
+                "key": "duration",
+                "title": "Duration",
+                "value": "1-2 months"
+              },
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
+              },
+              {
+                "key": "description",
+                "title": "Description",
+                "value": "A simple e-commerce app powered by Next.js"
+              },
+              {
+                "key": "achievements",
+                "title": "Key Achievements",
+                "value": "Created a complex product listing form using React Hook Form with linked categories/variables; resolved back-end issues in Node.js."
+              }
+            ]
+          },
+          {
+            "title": "Makeen/Blogext",
+            "items": [
+              {
+                "key": "role",
+                "title": "Role",
+                "value": "Front-End Developer"
+              },
+              {
+                "key": "duration",
+                "title": "Duration",
+                "value": "1 month"
+              },
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React, Next.js, Material UI, SWR, Redux Toolkit, TinyMCE"
+              },
+              {
+                "key": "description",
+                "title": "Description",
+                "value": "A content management and publishing platform with a RESTful API."
+              }
+            ]
+          },
+          {
+            "title": "Makeen/Fineql",
+            "items": [
+              {
+                "key": "role",
+                "title": "Role",
+                "value": "Front-End Developer"
+              },
+              {
+                "key": "duration",
+                "title": "Duration",
+                "value": "2 weeks"
+              },
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React, GraphQL, Apollo, Tailwind CSS, Recharts, React Router, React Leaflet"
+              },
+              {
+                "key": "description",
+                "title": "Description",
+                "value": "Financial dashboard with data visualization and mapping using GraphQL."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
