@@ -1,72 +1,72 @@
-interface ResumeContact {
+interface ResumeV1Contact {
   key: string;
   title: string;
   value: string;
 }
 
-interface ResumePersonalInfo {
+interface ResumeV1PersonalInfo {
   fullName: string;
   role: string;
   location: string;
   bornOn: string;
   about: string;
-  contact: ResumeContact[];
+  contact: ResumeV1Contact[];
 }
 
-interface ResumeSummary {
+interface ResumeV1Summary {
   title: string;
   value: string;
 }
 
-interface ResumeSkill {
+interface ResumeV1Skill {
   key: string;
   title: string;
   items: string[];
 }
 
-interface ResumeSkills {
+interface ResumeV1Skills {
   title: string;
-  children: ResumeSkill[];
+  children: ResumeV1Skill[];
 }
 
-interface ResumeProjectItem {
+interface ResumeV1ProjectItem {
   key: string;
   title: string;
   value: string;
 }
 
-interface ResumeProject {
+interface ResumeV1Project {
   title: string;
-  items: ResumeProjectItem[];
+  items: ResumeV1ProjectItem[];
 }
 
-interface ResumeCompany {
+interface ResumeV1Company {
   title: string;
   description: string;
   startTime: string;
   endTime: string;
-  projects: ResumeProject[];
+  projects: ResumeV1Project[];
 }
 
-interface ResumeExperience {
+interface ResumeV1Experience {
   title: string;
-  company: ResumeCompany[];
+  company: ResumeV1Company[];
 }
 
-interface ResumeEducationItem {
+interface ResumeV1EducationItem {
   title: string;
   description: string;
 }
 
-interface ResumeEducation {
+interface ResumeV1Education {
   title: string;
-  children: ResumeEducationItem[];
+  children: ResumeV1EducationItem[];
 }
 
-interface Resume {
-  personalInfo: ResumePersonalInfo;
-  summary: ResumeSummary;
-  skills: ResumeSkills;
-  experience: ResumeExperience;
-  education: ResumeEducation;
+interface ResumeV1 {
+  personalInfo: ResumeV1PersonalInfo;
+  summary: ResumeV1Summary;
+  skills: ResumeV1Skills;
+  experience: ResumeV1Experience;
+  education: ResumeV1Education;
 }
