@@ -17,7 +17,7 @@ const ResumeV1 = () => {
     return (
         <PDFViewer style={styles.viewer}>
             <Document>
-                <Page style={styles.body} orientation="portrait">
+                <Page size="A4" orientation="portrait" style={styles.body}>
                     <View style={styles.container}>
                         <Text
                             style={{ fontWeight: "light", fontStyle: "italic" }}>
