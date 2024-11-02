@@ -348,5 +348,14 @@
         ]
       }
     ]
+  },
+  "education": {
+    "title": "Education",
+    "children": [
+      {
+        "degree": "Bachelor of Computer Engineering",
+        "description": "University: Islamic Azad University, Science and Research Branch"
+      }
+    ]
   }
 }
