@@ -1,6 +1,8 @@
 import { useEffect } from "react"
 import { resumeFonts, resumeV1Styles } from "../../lib"
-import { Document, PDFViewer, Page, StyleSheet, Text, View, Font } from "@react-pdf/renderer"
+import resumeV1Data from "../../apis/statics/resume-v1.json"
+import ResumeV1PersonalInfo from "../../components/resume/v1/PersonalInfo"
+import { Document, PDFViewer, Page, StyleSheet, View, Font } from "@react-pdf/renderer"
 
 Font.register(resumeFonts.openSans)
 
@@ -19,10 +21,11 @@ const ResumeV1 = () => {
             <Document>
                 <Page size="A4" orientation="portrait" style={styles.body}>
                     <View style={styles.container}>
-                        <Text
-                            style={{ fontWeight: "light", fontStyle: "italic" }}>
-                            Hello
-                        </Text>
+                        <ResumeV1PersonalInfo
+                            styles={styles}
+                            data={resumeV1Data.personalInfo}
+                        />
+                        <View style={styles.devider} />
                     </View>
                 </Page>
             </Document>
