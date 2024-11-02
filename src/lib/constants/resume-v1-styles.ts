@@ -33,7 +33,8 @@ export const styles: Styles = {
   },
   blockTitle: {
     fontSize: "15px",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    letterSpacing: -0.5
   },
   text: {
     fontSize: "10px",
@@ -88,6 +89,15 @@ export const styles: Styles = {
     display: "flex",
     flexDirection: "column",
     gap: "8px",
+    width: "90%"
+  },
+  skillsContainer: {
+    width: "90%"
+  },
+  experienceContainer: {
+    width: "90%"
+  },
+  educationContainer: {
     width: "90%"
   }
 };

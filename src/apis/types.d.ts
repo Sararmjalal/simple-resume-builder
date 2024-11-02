@@ -50,7 +50,7 @@ interface ResumeV1Company {
 
 interface ResumeV1Experience {
   title: string;
-  company: ResumeV1Company[];
+  companies: ResumeV1Company[];
 }
 
 interface ResumeV1EducationItem {
