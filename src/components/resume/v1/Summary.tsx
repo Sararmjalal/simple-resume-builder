@@ -1,4 +1,4 @@
-import { Styles, View } from "@react-pdf/renderer"
+import { Styles, Text, View } from "@react-pdf/renderer"
 
 type ResumeV1SummaryProps = {
     styles: Styles
@@ -6,9 +6,17 @@ type ResumeV1SummaryProps = {
 }
 
 const ResumeV1Summary = ({ data, styles }: ResumeV1SummaryProps) => {
-    return (
-        <View style={{ width: "100%" }}>
 
+    const { title, value } = data
+
+    return (
+        <View style={styles.summaryContainer}>
+            <Text style={styles.blockTitle}>
+                {title}
+            </Text>
+            <Text style={{ ...styles.text, fontWeight: "normal" }}>
+                {value}
+            </Text>
         </View>
     )
 }

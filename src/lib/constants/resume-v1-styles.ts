@@ -26,9 +26,20 @@ export const styles: Styles = {
   },
   devider: {
     width: "100%",
-    borderBottom: `1px solid ${colors["border-primary"]}`,
     height: "1px",
-    padding: "8px 0"
+    padding: "8px 0",
+    marginBottom: "12px",
+    borderBottom: `1px solid ${colors["border-primary"]}`
+  },
+  blockTitle: {
+    fontSize: "15px",
+    fontWeight: "bold"
+  },
+  text: {
+    fontSize: "10px",
+    lineHeight: "1.6",
+    textAlign: "justify",
+    color: colors["text-secondary"]
   },
   personalInfoContainer: {
     width: "100%",
@@ -72,5 +83,11 @@ export const styles: Styles = {
     fontSize: "8px",
     fontWeight: "light",
     marginTop: "1px"
+  },
+  summaryContainer: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "8px",
+    width: "90%"
   }
 };
