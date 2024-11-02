@@ -1,9 +1,10 @@
 {
-  "generalInfo": {
+  "personalInfo": {
     "fullName": "Sara Jalal",
     "role": "React.js & Next.js Developer",
     "location": "Iran, Tehran",
     "bornOn": "January, 2000",
+    "about": "",
     "contact": [
       {
         "key": "email",
@@ -24,6 +25,56 @@
         "key": "linkedIn",
         "title": "LinkedIn",
         "value": "linkedin.com/Sararmjalal"
+      }
+    ]
+  },
+  "summary": {
+    "title": "Professional Summary",
+    "value": "Front-end developer with extensive experience in high-performance app development, particularly in PWA and React/Next.js. Proven skills in complex project management and team leadership, with success in delivering scalable solutions and optimizing app performance. Consistently achieved notable goals, including a 100% Lighthouse score for mobile performance and guiding projects with advanced business features."
+  },
+  "skills": {
+    "title": "Skills and Technologies",
+    "children": [
+      {
+        "key": "languages",
+        "title": "Languages & Frameworks",
+        "items": [
+          "JavaScript",
+          "TypeScript",
+          "React.js",
+          "Next.js",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "key": "libraries",
+        "title": "Libraries & Tools",
+        "items": [
+          "Axios",
+          "React Query",
+          "Redux Toolkit",
+          "SWR",
+          "React-hook-form",
+          "Zustand",
+          "Docker",
+          "Material UI",
+          "PWA"
+        ]
+      },
+      {
+        "key": "vc",
+        "title": "Project Management & Version Control",
+        "items": ["Taskulu", "Git"]
+      },
+      {
+        "key": "cc",
+        "title": "Core Competencies",
+        "items": [
+          "Performance optimization",
+          "Team leadership",
+          "Complex form management",
+          "Problem-solving"
+        ]
       }
     ]
   }
