@@ -18,11 +18,6 @@ export const styles: Styles = {
     fontFamily: 'Open Sans',
     color: colors["text-primary"],
     backgroundColor: colors.background
-
-  },
-  container: {
-    width: "100%",
-    height: "100%",
   },
   devider: {
     width: "100%",
@@ -131,7 +126,7 @@ export const styles: Styles = {
     borderRadius: "2px",
   },
   experienceContainer: {
-    width: "90%"
+    width: "100%"
   },
   companiesWrapper: {
     display: "flex",
@@ -163,13 +158,14 @@ export const styles: Styles = {
     fontWeight: "light",
     fontStyle: "italic",
     fontSize: "8px",
-    marginBottom: "4px"
+    marginBottom: "8px"
   },
   projectsWrapper: {
 
   },
   projectWrapper: {
-    marginLeft: "6px"
+    marginLeft: "6px",
+    marginBottom: "5px"
   },
   projectTitleWrapper: {
     display: "flex",

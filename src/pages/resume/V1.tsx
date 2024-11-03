@@ -6,7 +6,7 @@ import ResumeV1Summary from "../../components/resume/v1/Summary"
 import ResumeV1Education from "../../components/resume/v1/Education"
 import ResumeV1Experience from "../../components/resume/v1/Experience"
 import ResumeV1PersonalInfo from "../../components/resume/v1/PersonalInfo"
-import { Document, PDFViewer, Page, StyleSheet, View, Font } from "@react-pdf/renderer"
+import { Document, PDFViewer, Page, StyleSheet, View, Font, } from "@react-pdf/renderer"
 
 Font.register(resumeFonts.openSans)
 

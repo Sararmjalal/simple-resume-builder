@@ -64,7 +64,10 @@
       {
         "key": "vc",
         "title": "Project Management & Version Control",
-        "items": ["Taskulu", "Git"]
+        "items": [
+          "Taskulu",
+          "Git"
+        ]
       },
       {
         "key": "cc",
@@ -91,6 +94,11 @@
             "title": "Nikaat/Skenas",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "JavaScript, TypeScript, Tailwind CSS, React.js, Next.js, React-hook-form, Axios, React Query, Zustand, Docker"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Front-End Developer"
@@ -99,11 +107,6 @@
                 "key": "duration",
                 "title": "Duration",
                 "value": "1 month"
-              },
-              {
-                "key": "technologies",
-                "title": "Technologies",
-                "value": "JavaScript, TypeScript, Tailwind CSS, React.js, Next.js, React-hook-form, Axios, React Query, Zustand, Docker"
               },
               {
                 "key": "description",
@@ -121,6 +124,11 @@
             "title": "Nikaat/Viracc-Panel",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "JavaScript, Bootstrap, Chart.js, React, Redux, Webpack, jQuery, Sass"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Development Team Lead"
@@ -129,11 +137,6 @@
                 "key": "duration",
                 "title": "Duration",
                 "value": "1.5 years"
-              },
-              {
-                "key": "technologies",
-                "title": "Technologies",
-                "value": "JavaScript, Bootstrap, Chart.js, React, Redux, Webpack, jQuery, Sass"
               },
               {
                 "key": "description",
@@ -151,6 +154,11 @@
             "title": "Nikaat/Viracup",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": " JavaScript, Tailwind CSS, React.js, Axios, React Query"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Development Team Lead"
@@ -159,11 +167,6 @@
                 "key": "duration",
                 "title": "Duration",
                 "value": "Less than 1 week"
-              },
-              {
-                "key": "technologies",
-                "title": "Technologies",
-                "value": " JavaScript, Tailwind CSS, React.js, Axios, React Query"
               },
               {
                 "key": "description",
@@ -176,6 +179,11 @@
             "title": "Nikaat/Viracc-School",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "JavaScript, Bootstrap, Chart.js, React, Redux, Webpack, jQuery, Sass"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Development Team Lead"
@@ -184,11 +192,6 @@
                 "key": "duration",
                 "title": "Duration",
                 "value": "1-2 months"
-              },
-              {
-                "key": "technologies",
-                "title": "Technologies",
-                "value": "JavaScript, Bootstrap, Chart.js, React, Redux, Webpack, jQuery, Sass"
               },
               {
                 "key": "description",
@@ -201,6 +204,11 @@
             "title": "Nikaat/Landing",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "TypeScript, React.js, Next.js, Material UI, SWR, Axios, Redux Toolkit"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Front-End Developer"
@@ -209,11 +217,6 @@
                 "key": "duration",
                 "title": "Duration",
                 "value": "1-2 months"
-              },
-              {
-                "key": "technologies",
-                "title": "Technologies",
-                "value": "TypeScript, React.js, Next.js, Material UI, SWR, Axios, Redux Toolkit"
               },
               {
                 "key": "description",
@@ -231,6 +234,11 @@
             "title": "Nikaat/Panel",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Front-End Developer"
@@ -239,11 +247,6 @@
                 "key": "duration",
                 "title": "Duration",
                 "value": "1-2 months"
-              },
-              {
-                "key": "technologies",
-                "title": "Technologies",
-                "value": "React, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
               },
               {
                 "key": "description",
@@ -269,6 +272,11 @@
             "title": "Makeen/E-commerce",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Front-End Developer"
@@ -277,11 +285,6 @@
                 "key": "duration",
                 "title": "Duration",
                 "value": "1-2 months"
-              },
-              {
-                "key": "technologies",
-                "title": "Technologies",
-                "value": "React, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
               },
               {
                 "key": "description",
@@ -299,6 +302,11 @@
             "title": "Makeen/Blogext",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React, Next.js, Material UI, SWR, Redux Toolkit, TinyMCE"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Front-End Developer"
@@ -307,11 +315,6 @@
                 "key": "duration",
                 "title": "Duration",
                 "value": "1 month"
-              },
-              {
-                "key": "technologies",
-                "title": "Technologies",
-                "value": "React, Next.js, Material UI, SWR, Redux Toolkit, TinyMCE"
               },
               {
                 "key": "description",
@@ -324,6 +327,11 @@
             "title": "Makeen/Fineql",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React, GraphQL, Apollo, Tailwind CSS, Recharts, React Router, React Leaflet"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Front-End Developer"
@@ -332,11 +340,6 @@
                 "key": "duration",
                 "title": "Duration",
                 "value": "2 weeks"
-              },
-              {
-                "key": "technologies",
-                "title": "Technologies",
-                "value": "React, GraphQL, Apollo, Tailwind CSS, Recharts, React Router, React Leaflet"
               },
               {
                 "key": "description",

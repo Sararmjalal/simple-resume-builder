@@ -9,7 +9,7 @@ const ResumeV1Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
             <Text style={styles.blockTitle}>
                 {title}
             </Text>
-            <View style={styles.companiesWrapper}>
+            <View style={{ ...styles.companiesWrapper }}>
                 {
                     companies.map(({ title, description, startTime, endTime, projects }) => {
                         return (
@@ -31,7 +31,7 @@ const ResumeV1Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
                                 {
                                     projects.map(({ title, items }) => {
                                         return (
-                                            <View style={styles.projectWrapper}>
+                                            <View wrap={false} key={title} style={styles.projectWrapper}>
                                                 <View style={styles.projectTitleWrapper}>
                                                     <Text style={styles.projectTitleBullet}>
                                                         {`•`}
@@ -40,6 +40,41 @@ const ResumeV1Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
                                                         {title}
                                                     </Text>
                                                 </View>
+                                                {
+                                                    items.map(({ key, title, value }) => {
+                                                        return (
+                                                            <View
+                                                                key={key}
+                                                                style={{ fontSize: "8.5px", marginLeft: "8px" }}>
+                                                                {
+                                                                    key === "technologies" ?
+                                                                        <View style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", alignItems: "center", gap: "6px" }}>
+                                                                            {
+                                                                                value.split(",").map((skillItem) => {
+                                                                                    return (
+                                                                                        <Text key={skillItem} style={{
+                                                                                            backgroundColor: "#E8E8E8",
+                                                                                            padding: "2px 4px",
+                                                                                            fontSize: "8px",
+                                                                                            borderRadius: "2px",
+                                                                                            margin: "4px 0"
+                                                                                        }}>
+                                                                                            {skillItem}
+                                                                                        </Text>
+                                                                                    )
+                                                                                })
+                                                                            }
+
+                                                                        </View>
+                                                                        :
+                                                                        <Text>
+                                                                            {title}: {value}
+                                                                        </Text>
+                                                                }
+                                                            </View>
+                                                        )
+                                                    })
+                                                }
                                             </View>
                                         )
                                     })
