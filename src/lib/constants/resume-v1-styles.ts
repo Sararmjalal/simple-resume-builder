@@ -31,19 +31,10 @@ export const styles: Styles = {
     marginBottom: "12px",
     borderBottom: `1px solid ${colors["border-primary"]}`
   },
-  verticalDevider: {
-    width: "1px",
-    height: "74%",
-    backgroundColor: colors["border-primary"],
-    position: "absolute",
-    left: 0,
-    top: "20px",
-    zIndex: 0
-  },
   blockTitle: {
     fontSize: "15px",
     fontWeight: "bold",
-    letterSpacing: -0.5
+    letterSpacing: -0.6
   },
   text: {
     fontSize: "10px",
@@ -106,28 +97,25 @@ export const styles: Styles = {
   skillsWrapper: {
     display: "flex",
     flexDirection: "column",
-    gap: "0px",
-    marginTop: "8px",
-    marginLeft: "16px",
-    position: "relative"
+    gap: "8px",
+    position: "relative",
+    marginTop: "8px"
   },
   skillTitleWrapper: {
     fontWeight: "bold",
-    padding: "4px",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    gap: "4px",
-    marginLeft: "-7px"
+    gap: "2px",
+    marginBottom: "8px"
   },
   skillTitleBullet: {
-    fontSize: "20px",
+    fontSize: "12px",
     position: "relative",
-    zIndex: 1000,
-    color: colors["border-primary"]
   },
   skillTitle: {
-    fontSize: "10px"
+    fontSize: "10px",
+    letterSpacing: -0.6
   },
   skillItemsWrapper: {
     display: "flex",
@@ -135,7 +123,6 @@ export const styles: Styles = {
     flexWrap: "wrap",
     gap: "6px",
     fontSize: "8px",
-    marginLeft: "9px",
     marginTop: "-4px"
   },
   skillItem: {
