@@ -1,9 +1,4 @@
-import { Styles, Text, View } from "@react-pdf/renderer"
-
-type ResumeV1EducationProps = {
-    styles: Styles
-    data: ResumeV1Education
-}
+import { Text, View } from "@react-pdf/renderer"
 
 const ResumeV1Education = ({ data, styles }: ResumeV1EducationProps) => {
 

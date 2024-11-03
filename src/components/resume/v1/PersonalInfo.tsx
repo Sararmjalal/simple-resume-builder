@@ -1,14 +1,9 @@
 import { ReactElement } from "react"
-import { Styles, Text, View } from "@react-pdf/renderer"
+import {Text, View } from "@react-pdf/renderer"
 import EmailV1 from "../../../assets/react-pdf-icons/EmailV1"
 import PhoneV1 from "../../../assets/react-pdf-icons/PhoneV1"
 import GithubV1 from "../../../assets/react-pdf-icons/GithubV1"
 import LinkedInV1 from "../../../assets/react-pdf-icons/LinkedInV1"
-
-type ResumeV1PersonalInfoProps = {
-    styles: Styles
-    data: ResumeV1PersonalInfo
-}
 
 const ResumeV1PersonalInfo = ({ data, styles }: ResumeV1PersonalInfoProps) => {
 
