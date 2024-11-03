@@ -133,6 +133,37 @@ export const styles: Styles = {
   experienceContainer: {
     width: "90%"
   },
+  companiesWrapper: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "8px",
+    marginTop: "8px"
+  },
+  companyTitleWrapper: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: "2px",
+  },
+  companyTitleBullet: {
+    fontSize: "12px",
+    position: "relative",
+    fontWeight: "bold",
+  },
+  companyTitle: {
+    fontSize: "10px",
+    letterSpacing: -0.6,
+    fontWeight: "bold"
+  },
+  companyDescription: {
+    fontSize: "9px",
+    marginLeft: "2px"
+  },
+  companyDuration: {
+    fontWeight: "light",
+    fontStyle: "italic",
+    fontSize: "8px"
+  },
   educationContainer: {
     width: "90%"
   }
