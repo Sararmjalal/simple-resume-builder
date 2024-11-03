@@ -3,9 +3,10 @@ import { Styles } from "@react-pdf/renderer";
 const colors = {
   "primary": "",
   "text-primary": "#333",
-  "text-secondary": "#545454",
-  "background": "#f7f7fc",
-  "border-primary": "#E8E8E8"
+  "text-secondary": "#333333",
+  "background": "#f5f7fc",
+  "border-primary": "#e3e9f5",
+  "badge-primary": "#e3e9f5"
 }
 
 export const styles: Styles = {
@@ -121,7 +122,7 @@ export const styles: Styles = {
     marginTop: "-4px"
   },
   skillItem: {
-    backgroundColor: colors["border-primary"],
+    backgroundColor: colors["badge-primary"],
     padding: "2px 4px",
     borderRadius: "2px",
   },
@@ -200,7 +201,7 @@ export const styles: Styles = {
     gap: "6px"
   },
   technologyItem: {
-    backgroundColor: colors["border-primary"],
+    backgroundColor: colors["badge-primary"],
     padding: "2px 4px",
     fontSize: "8px",
     borderRadius: "2px",
