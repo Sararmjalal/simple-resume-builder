@@ -31,6 +31,15 @@ export const styles: Styles = {
     marginBottom: "12px",
     borderBottom: `1px solid ${colors["border-primary"]}`
   },
+  verticalDevider: {
+    width: "1px",
+    height: "74%",
+    backgroundColor: colors["border-primary"],
+    position: "absolute",
+    left: 0,
+    top: "20px",
+    zIndex: 0
+  },
   blockTitle: {
     fontSize: "15px",
     fontWeight: "bold",
@@ -92,7 +101,47 @@ export const styles: Styles = {
     width: "90%"
   },
   skillsContainer: {
-    width: "90%"
+    width: "90%",
+  },
+  skillsWrapper: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "0px",
+    marginTop: "8px",
+    marginLeft: "16px",
+    position: "relative"
+  },
+  skillTitleWrapper: {
+    fontWeight: "bold",
+    padding: "4px",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: "4px",
+    marginLeft: "-7px"
+  },
+  skillTitleBullet: {
+    fontSize: "20px",
+    position: "relative",
+    zIndex: 1000,
+    color: colors["border-primary"]
+  },
+  skillTitle: {
+    fontSize: "10px"
+  },
+  skillItemsWrapper: {
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: "6px",
+    fontSize: "8px",
+    marginLeft: "9px",
+    marginTop: "-4px"
+  },
+  skillItem: {
+    backgroundColor: colors["border-primary"],
+    padding: "2px 4px",
+    borderRadius: "2px",
   },
   experienceContainer: {
     width: "90%"
