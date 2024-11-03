@@ -158,7 +158,8 @@ export const styles: Styles = {
     fontWeight: "light",
     fontStyle: "italic",
     fontSize: "8px",
-    marginBottom: "8px"
+    marginBottom: "8px",
+    marginLeft: "8px"
   },
   projectWrapper: {
     marginLeft: "6px",
@@ -207,5 +208,28 @@ export const styles: Styles = {
   },
   educationContainer: {
     width: "90%"
+  },
+  educationChildrenWrapper: {
+    marginTop: "8px"
+  },
+  educationChildWrapper: {
+    fontWeight: "bold",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: "2px",
+    marginBottom: "8px"
+  },
+  educationChildBullet: {
+    fontSize: "12px",
+    position: "relative",
+  },
+  educationChildTitle: {
+    fontSize: "11px",
+    letterSpacing: -0.6
+  },
+  educationChildDescription: {
+    fontSize: "9px",
+    marginLeft: "8px"
   }
 };

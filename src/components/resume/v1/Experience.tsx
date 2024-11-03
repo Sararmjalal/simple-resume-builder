@@ -65,7 +65,7 @@ const ResumeV1Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
                                                                         <Text style={styles.projectDescTitle}>
                                                                             {title}:
                                                                             <Text style={styles.projectDescValue}>
-                                                                                {value}
+                                                                                {` ${value}`}
                                                                             </Text>
                                                                         </Text>
                                                                 }
