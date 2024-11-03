@@ -28,6 +28,22 @@ const ResumeV1Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
                                 <Text style={styles.companyDuration}>
                                     {`${startTime} - ${endTime || "Present"}`}
                                 </Text>
+                                {
+                                    projects.map(({ title, items }) => {
+                                        return (
+                                            <View style={styles.projectWrapper}>
+                                                <View style={styles.projectTitleWrapper}>
+                                                    <Text style={styles.projectTitleBullet}>
+                                                        {`•`}
+                                                    </Text>
+                                                    <Text style={styles.projectTitle}>
+                                                        {title}
+                                                    </Text>
+                                                </View>
+                                            </View>
+                                        )
+                                    })
+                                }
                             </View>
                         )
                     })

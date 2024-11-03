@@ -162,7 +162,30 @@ export const styles: Styles = {
   companyDuration: {
     fontWeight: "light",
     fontStyle: "italic",
-    fontSize: "8px"
+    fontSize: "8px",
+    marginBottom: "4px"
+  },
+  projectsWrapper: {
+
+  },
+  projectWrapper: {
+    marginLeft: "6px"
+  },
+  projectTitleWrapper: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: "2px",
+  },
+  projectTitleBullet: {
+    fontSize: "11px",
+    position: "relative",
+    fontWeight: "bold",
+  },
+  projectTitle: {
+    fontSize: "9px",
+    letterSpacing: -0.6,
+    fontWeight: "bold"
   },
   educationContainer: {
     width: "90%"
