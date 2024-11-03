@@ -9,7 +9,7 @@ const ResumeV1Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
             <Text style={styles.blockTitle}>
                 {title}
             </Text>
-            <View style={{ ...styles.companiesWrapper }}>
+            <View style={styles.companiesWrapper}>
                 {
                     companies.map(({ title, description, startTime, endTime, projects }) => {
                         return (
@@ -45,20 +45,15 @@ const ResumeV1Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
                                                         return (
                                                             <View
                                                                 key={key}
-                                                                style={{ fontSize: "8.5px", marginLeft: "8px" }}>
+                                                                style={styles.projectDescWrapper}>
                                                                 {
                                                                     key === "technologies" ?
-                                                                        <View style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", alignItems: "center", gap: "6px" }}>
+                                                                        <View style={styles.technologiesWrapper}>
                                                                             {
                                                                                 value.split(",").map((skillItem) => {
                                                                                     return (
-                                                                                        <Text key={skillItem} style={{
-                                                                                            backgroundColor: "#E8E8E8",
-                                                                                            padding: "2px 4px",
-                                                                                            fontSize: "8px",
-                                                                                            borderRadius: "2px",
-                                                                                            margin: "4px 0"
-                                                                                        }}>
+                                                                                        <Text key={skillItem}
+                                                                                            style={styles.technologyItem}>
                                                                                             {skillItem}
                                                                                         </Text>
                                                                                     )
@@ -67,8 +62,11 @@ const ResumeV1Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
 
                                                                         </View>
                                                                         :
-                                                                        <Text>
-                                                                            {title}: {value}
+                                                                        <Text style={styles.projectDescTitle}>
+                                                                            {title}:
+                                                                            <Text style={styles.projectDescValue}>
+                                                                                {value}
+                                                                            </Text>
                                                                         </Text>
                                                                 }
                                                             </View>

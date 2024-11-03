@@ -109,7 +109,7 @@ export const styles: Styles = {
     position: "relative",
   },
   skillTitle: {
-    fontSize: "10px",
+    fontSize: "11px",
     letterSpacing: -0.6
   },
   skillItemsWrapper: {
@@ -146,7 +146,7 @@ export const styles: Styles = {
     fontWeight: "bold",
   },
   companyTitle: {
-    fontSize: "10px",
+    fontSize: "11px",
     letterSpacing: -0.6,
     fontWeight: "bold"
   },
@@ -159,9 +159,6 @@ export const styles: Styles = {
     fontStyle: "italic",
     fontSize: "8px",
     marginBottom: "8px"
-  },
-  projectsWrapper: {
-
   },
   projectWrapper: {
     marginLeft: "6px",
@@ -179,9 +176,34 @@ export const styles: Styles = {
     fontWeight: "bold",
   },
   projectTitle: {
-    fontSize: "9px",
+    fontSize: "10px",
     letterSpacing: -0.6,
-    fontWeight: "bold"
+    fontWeight: "bold",
+    lineHeight: "1.6"
+  },
+  projectDescWrapper: {
+    fontSize: "9px",
+    marginLeft: "8px"
+  },
+  projectDescTitle: {
+    fontWeight: "semibold"
+  },
+  projectDescValue: {
+    fontWeight: "normal"
+  },
+  technologiesWrapper: {
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    alignItems: "center",
+    gap: "6px"
+  },
+  technologyItem: {
+    backgroundColor: colors["border-primary"],
+    padding: "2px 4px",
+    fontSize: "8px",
+    borderRadius: "2px",
+    margin: "4px 0"
   },
   educationContainer: {
     width: "90%"
