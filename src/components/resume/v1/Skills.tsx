@@ -11,7 +11,7 @@ const ResumeV1Skills = ({ data, styles }: ResumeV1SkillsProps) => {
             </Text>
             <View
                 style={styles.skillsWrapper}>
-                <View style={styles.verticalDevider} />
+                {/* <View style={styles.verticalDevider} /> */}
                 {
                     children.map(({ key, title, items }) => {
                         return (
