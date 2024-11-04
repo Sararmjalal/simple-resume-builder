@@ -245,6 +245,6 @@ export const styles: Styles = {
     marginLeft: "8px"
   },
   softSkillsContainer: {
-    width: "90%"
+    width: "100%"
   }
 };
