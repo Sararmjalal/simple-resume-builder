@@ -42,8 +42,17 @@ export const styles: Styles = {
     width: "100%",
     display: "flex",
     flexDirection: "row",
+    position: "relative",
     gap: "4px",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
+  },
+  personalInfoBg: {
+    backgroundColor: colors["badge-primary"],
+    position: "absolute",
+    top: "-24px",
+    left: "-24px",
+    width: "100vw",
+    height: "144%"
   },
   personalInfoColContainer: {
     display: "flex",
@@ -63,7 +72,7 @@ export const styles: Styles = {
   locationAndBornOn: {
     fontSize: "9px",
     fontStyle: "italic",
-    fontWeight: "thin"
+    fontWeight: "normal"
   },
   contactContainer: {
     display: "flex",
@@ -71,13 +80,6 @@ export const styles: Styles = {
     alignItems: "flex-end",
     justifyContent: "flex-start",
     gap: "8px"
-  },
-  portfolioContainer: {
-    width: "100%",
-    display: "flex",
-    flexDirection: "row",
-    gap: "3px",
-    // marginTop: "10px"
   },
   contactItemContainer: {
     width: "100%",
@@ -87,7 +89,7 @@ export const styles: Styles = {
   },
   contactItem: {
     fontSize: "8px",
-    fontWeight: "light",
+    fontWeight: "normal",
     marginTop: "1px"
   },
   summaryContainer: {
@@ -165,7 +167,7 @@ export const styles: Styles = {
     marginLeft: "2px"
   },
   companyDuration: {
-    fontWeight: "light",
+    fontWeight: "normal",
     fontStyle: "italic",
     fontSize: "8px",
     marginBottom: "8px",

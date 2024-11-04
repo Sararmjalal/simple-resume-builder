@@ -5,6 +5,7 @@ import PhoneV1 from "../../../assets/react-pdf-icons/PhoneV1"
 import GithubV1 from "../../../assets/react-pdf-icons/GithubV1"
 import LinkedInV1 from "../../../assets/react-pdf-icons/LinkedInV1"
 import PortfolioV1 from "../../../assets/react-pdf-icons/PortfolioV1"
+import LocationV1 from "../../../assets/react-pdf-icons/LocationV1"
 
 const ResumeV1PersonalInfo = ({ data, styles }: ResumeV1PersonalInfoProps) => {
 
@@ -15,7 +16,8 @@ const ResumeV1PersonalInfo = ({ data, styles }: ResumeV1PersonalInfoProps) => {
         phone: <PhoneV1 />,
         github: <GithubV1 />,
         linkedIn: <LinkedInV1 />,
-        portfolio: <PortfolioV1 />
+        portfolio: <PortfolioV1 />,
+        location: <LocationV1 />
     }
 
     return (
@@ -27,13 +29,17 @@ const ResumeV1PersonalInfo = ({ data, styles }: ResumeV1PersonalInfoProps) => {
                 <Text style={styles.role}>
                     {role}
                 </Text>
-                <Text style={styles.locationAndBornOn}>
-                    {`Born on: ${bornOn} | Live in:${location}`}
-                </Text>
+                <View
+                    style={{ ...styles.contactItemContainer, marginTop: "4px" }}>
+                    {icons.location}
+                    <Text style={styles.locationAndBornOn}>
+                        {`Location: ${location} | Born on: ${bornOn}`}
+                    </Text>
+                </View>
             </View>
             <View style={styles.contactContainer}>
                 {
-                    contact.map(({ key, value }) => {
+                    contact.map(({ key, value, title }) => {
                         return (
                             <View
                                 style={styles.contactItemContainer}

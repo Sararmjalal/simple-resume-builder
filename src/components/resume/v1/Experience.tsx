@@ -31,7 +31,7 @@ const ResumeV1Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
                                 {
                                     projects.map(({ title, items }) => {
                                         return (
-                                            <View wrap={false} key={title} style={styles.projectWrapper}>
+                                            <View key={title} style={styles.projectWrapper}>
                                                 <View style={styles.projectTitleWrapper}>
                                                     <Text style={styles.projectTitleBullet}>
                                                         {`•`}
