@@ -243,5 +243,8 @@ export const styles: Styles = {
   educationChildDescription: {
     fontSize: "9px",
     marginLeft: "8px"
+  },
+  softSkillsContainer: {
+    width: "90%"
   }
 };

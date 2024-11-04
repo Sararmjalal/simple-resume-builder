@@ -7,6 +7,7 @@ import ResumeV1Education from "../../components/resume/v1/Education"
 import ResumeV1Experience from "../../components/resume/v1/Experience"
 import ResumeV1PersonalInfo from "../../components/resume/v1/PersonalInfo"
 import { Document, PDFViewer, Page, StyleSheet, View, Font, } from "@react-pdf/renderer"
+import ResumeV1SoftSkills from "../../components/resume/v1/SoftSkills"
 
 Font.register(resumeFonts.openSans)
 
@@ -43,6 +44,11 @@ const ResumeV1 = () => {
                         <ResumeV1Experience
                             styles={styles}
                             data={resumeV1Data.experience}
+                        />
+                        <View style={styles.devider} />
+                        <ResumeV1SoftSkills
+                            styles={styles}
+                            data={resumeV1Data.softSkills}
                         />
                         <View style={styles.devider} />
                         <ResumeV1Education

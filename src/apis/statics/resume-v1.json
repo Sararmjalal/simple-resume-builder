@@ -357,6 +357,21 @@
       }
     ]
   },
+  "softSkills": {
+    "title": "Soft Skills",
+    "items": [
+      "Self-Studying",
+      " Hard Working",
+      " Problem Solving",
+      " Leadership",
+      " Self Confidence",
+      " Creativity",
+      " Curiosity",
+      " Critical Thinking",
+      " Crisis Management",
+      " Life-Long Learning"
+    ]
+  },
   "education": {
     "title": "Education",
     "children": [
