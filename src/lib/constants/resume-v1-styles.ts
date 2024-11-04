@@ -48,6 +48,8 @@ export const styles: Styles = {
   personalInfoColContainer: {
     display: "flex",
     flexDirection: "column",
+    alignItems: "flex-start",
+    justifyContent: "flex-start",
     gap: "4px"
   },
   fullName: {
@@ -67,8 +69,15 @@ export const styles: Styles = {
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-end",
-    justifyContent: "flex-end",
+    justifyContent: "flex-start",
     gap: "8px"
+  },
+  portfolioContainer: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "row",
+    gap: "3px",
+    // marginTop: "10px"
   },
   contactItemContainer: {
     width: "100%",

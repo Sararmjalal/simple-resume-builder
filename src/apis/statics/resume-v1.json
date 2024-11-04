@@ -7,14 +7,14 @@
     "about": "",
     "contact": [
       {
-        "key": "email",
-        "title": "Email",
-        "value": "Sara.Jalal.115@gmail.com"
-      },
-      {
         "key": "phone",
         "title": "Phone",
         "value": "+989031346086"
+      },
+      {
+        "key": "portfolio",
+        "title": "Portfolio",
+        "value": "sararmjalal.vercel.app"
       },
       {
         "key": "github",
@@ -25,6 +25,11 @@
         "key": "linkedIn",
         "title": "LinkedIn",
         "value": "linkedin.com/Sararmjalal"
+      },
+      {
+        "key": "email",
+        "title": "Email",
+        "value": "Sara.Jalal.115@gmail.com"
       }
     ]
   },
