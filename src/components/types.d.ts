@@ -27,3 +27,33 @@ type ResumeV1EducationProps = {
     styles: Styles
     data: ResumeV1Education
 }
+
+type ResumeV2PersonalInfoProps = {
+    styles: Styles
+    data: ResumeV2PersonalInfo
+}
+
+type ResumeV2SkillsProps = {
+    styles: Styles
+    data: ResumeV2Skills
+}
+
+type ResumeV2SummaryProps = {
+    styles: Styles
+    data: ResumeV2Summary
+}
+
+type ResumeV2ExperienceProps = {
+    styles: Styles
+    data: ResumeV2Experience
+}
+
+type ResumeV2SoftSkillsProps = {
+    styles: Styles
+    data: ResumeV2SoftSkills
+}
+
+type ResumeV2EducationProps = {
+    styles: Styles
+    data: ResumeV2Education
+}

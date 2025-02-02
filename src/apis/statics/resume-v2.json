@@ -1,0 +1,164 @@
+{
+	"personalInfo": {
+		"fullName": "Ali Asqar Aqchelou",
+		"role": "Backend Developer",
+		"location": "Iran, Tehran",
+		"bornOn": "February, 1994",
+		"about": "",
+		"contact": [
+			{
+				"key": "phone",
+				"title": "Phone",
+				"value": "+989391971073"
+			},
+			{
+				"key": "github",
+				"title": "Github",
+				"value": "Github.com/thejixer"
+			},
+			{
+				"key": "email",
+				"title": "Email",
+				"value": "Jixerm4n@gmail.com"
+			},
+			{
+				"key": "linkedIn",
+				"title": "LinkedIn",
+				"value": "LinkedIn.com/in/ali-asqar-aqchelou-1504b0a4/"
+			}
+		]
+	},
+	"summary": {
+		"title": "Professional Summary",
+		"value": "Experienced Backend Developer adept not only in coding but also in instructing and mentoring junior developers to help them secure their first job in their career, with over 4 years of experience. I excel in communication with front-end engineers due to my extensive experience in the field."
+	},
+	"skills": {
+		"title": "Skills and Technologies",
+		"children": [
+			{
+				"key": "languages",
+				"title": "Languages & Frameworks",
+				"items": ["Golang", "Echo", "Fiber"]
+			},
+			{
+				"key": "libraries",
+				"title": "Technologies",
+				"items": [
+					"Postgres",
+					"MongoDB",
+					"Redis",
+					"git",
+					"nginx",
+					"RabbitMQ",
+					"grpc",
+					"Docker",
+					"kubernetees",
+					"linux"
+				]
+			},
+			{
+				"key": "cc",
+				"title": "Core Competencies",
+				"items": [
+					"Performance optimization",
+					"Team leadership",
+					"Problem-solving"
+				]
+			}
+		]
+	},
+	"experience": {
+		"title": "Professional Experience",
+		"companies": [
+			{
+				"title": "Backend lead at Hamafza Startup",
+				"description": "Tehran, Iran",
+				"startTime": "November 2021",
+				"endTime": "April 2023",
+				"keyResponsibilities": [
+					"Led a team of three developers and oversaw the Frontend Team to ensure seamless API integration and efficient collaboration.",
+					"Managed Git strategies to ensure proper versioning across multiple products.",
+					"Assisted the Product Owner in managing and maintaining the backlog column",
+					"Utilized MongoDB for the database due to its ability to handle complex data aggregations in the project."
+				]
+			},
+			{
+				"title": "ReactJS Instructor",
+				"description": "Tehran, Iran",
+				"startTime": "November 2021",
+				"endTime": "April 2023",
+				"keyResponsibilities": [
+					"Instructed and mentored over 40 students in a six-month boot camp, providing hands-on training in React.js to prepare them for junior developer roles."
+				]
+			},
+			{
+				"title": "Backend Developer at Jixmart Startup",
+				"description": "Tehran, Iran",
+				"startTime": "November 2020",
+				"endTime": "August 2021",
+				"keyResponsibilities": [
+					"Designed and developed a **microservice architecture** leveraging Apollo Federation with the **Gateway pattern**.",
+					"Integrated a mailer system for notifications and password recovery.",
+					"Implemented **RabbitMQ** to ensure **eventual consistency** between microservices, maintaining data integrity across the system",
+					""
+				]
+			},
+			{
+				"title": "Full-Stack Developer at Hafiz Sazeh Aria",
+				"description": "Tehran, Iran",
+				"startTime": "December 2019",
+				"endTime": "September 2020",
+				"keyResponsibilities": [
+					"Responsible for maintaining the company's website and development of it's internal tools like its CMS and CRM",
+					"A real-time ticketing system for users to interact with admins.",
+					"Responsible for developing and maintaining an internal tool for the sales team, facilitating data collection and visualization for analytical insights, including real-time data visualization on maps and various charts.",
+					"Standardizing and migrating the legacy database to a more human-readable schema, enhancing development efficiency and enabling more effective data mining."
+				]
+			},
+			{
+				"title": "Full-Stack Intern at Rasa Bootcamp",
+				"description": "On-Site, Tehran, Iran",
+				"startTime": "July 2019",
+				"endTime": "November 2019",
+				"keyResponsibilities": [
+					"Contributed to the development of a full-stack blog application using Node.js, GraphQL, MongoDB, JWT, and React Native."
+				]
+			}
+		]
+	},
+	"selfProjects": {
+		"title": "Projects",
+		"projects": [
+			{
+				"title": "Jixifood",
+				"description": "",
+				"startTime": "January 2025",
+				"endTime": "February 2025",
+				"github": "https://github.com/thejixer/jixifood/",
+				"keyResponsibilities": [
+					"Developed and maintained a backend server using a **microservice architecture** and the **Gateway pattern**, ensuring scalable and modular service interactions.",
+					"Applied **dependency injection** in Go to manage service dependencies, improving code modularity, maintainability, and testability.",
+					"Implemented **gRPC** for efficient communication across services and **gRPC bidirectional streams** for real-time order tracking.",
+					"Utilized **PostgreSQL** for data storage and integrated **Redis** as a caching mechanism to boost system performance.",
+					"Ensured **eventual consistency** across the system by integrating **RabbitMQ** for message queuing and reliable communication.",
+					"Secured the application with **JWT-based authentication** and authorization, implementing **Role-Based Access Control (RBAC)** for granular user permissions.",
+					"Containerized the application using **Docker** and orchestrated deployments with **Kubernetes**, ensuring scalability and seamless management."
+				]
+			}
+		]
+	},
+	"softSkills": {
+		"title": "Soft Skills",
+		"items": [
+			"Self-Studying",
+			" Hard Working",
+			" Problem Solving",
+			" Leadership",
+			" Self Confidence",
+			" Creativity",
+			" Critical Thinking",
+			" Crisis Management",
+			" Life-Long Learning"
+		]
+	}
+}
