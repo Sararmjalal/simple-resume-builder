@@ -13,6 +13,15 @@ interface ResumeV1PersonalInfo {
   contact: ResumeV1Contact[]
 }
 
+interface ResumeV3PersonalInfo {
+  fullName: string
+  role: string
+  location: string
+  bornOn: string
+  about: string
+  contact: (ResumeV1Contact & { path: string })[]
+}
+
 interface ResumeV1Summary {
   title: string
   value: string
@@ -51,6 +60,11 @@ interface ResumeV1Company {
 interface ResumeV1Experience {
   title: string
   companies: ResumeV1Company[]
+}
+
+interface ResumeV3SelfExperience {
+  title: string
+  projects: ResumeV1Project[]
 }
 
 interface ResumeV1EducationItem {
@@ -124,7 +138,7 @@ interface ResumeV2Company {
   description: string
   startTime: string
   endTime: string
-  keyResponsibilities:string[]
+  keyResponsibilities: string[]
 }
 
 interface ResumeV2Experience {
