@@ -3,10 +3,10 @@ import { Styles } from "@react-pdf/renderer";
 const colors = {
   "primary": "",
   "text-primary": "#333",
-  "text-secondary": "#333333",
-  "background": "#f5f7fc",
-  "border-primary": "#e3e9f5",
-  "badge-primary": "#e3e9f5"
+  "text-secondary": "#333",
+  "background": "#8aad930d",
+  "border-primary": "#cbddd0",
+  "badge-primary": "#8aad934a"
 }
 
 export const styles: Styles = {
@@ -62,8 +62,9 @@ export const styles: Styles = {
     gap: "4px"
   },
   fullName: {
-    fontSize: "20px",
-    fontWeight: "bold"
+    fontSize: "24px",
+    fontWeight: "bold",
+    color: "#55795e"
   },
   role: {
     fontSize: "12px",
