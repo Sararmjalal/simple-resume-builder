@@ -145,7 +145,7 @@ export const styles: Styles = {
     flexDirection: "column",
     gap: "8px",
     marginTop: "8px",
-    marginLeft:"8px"
+    marginLeft: "8px"
   },
   companyTitleWrapper: {
     display: "flex",
@@ -189,7 +189,7 @@ export const styles: Styles = {
     position: "absolute",
     fontWeight: "bold",
     top: "0px",
-    left:"6px"  
+    left: "6px"
   },
   projectTitle: {
     fontSize: "10px",
@@ -233,19 +233,19 @@ export const styles: Styles = {
     flexDirection: "row",
     alignItems: "center",
     gap: "2px",
-    marginBottom: "8px"
   },
   educationChildBullet: {
-    fontSize: "12px",
+    fontSize: "10px",
     position: "relative",
   },
   educationChildTitle: {
-    fontSize: "11px",
+    fontSize: "10px",
     letterSpacing: -0.6
   },
   educationChildDescription: {
-    fontSize: "9px",
-    marginLeft: "8px"
+    fontSize: "8px",
+    marginLeft: "8px",
+    marginBottom: "4px"
   },
   softSkillsContainer: {
     width: "100%"
