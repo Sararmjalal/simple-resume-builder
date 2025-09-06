@@ -2,11 +2,11 @@ import { Styles } from "@react-pdf/renderer";
 
 const colors = {
   "primary": "",
-  "text-primary": "#333",
-  "text-secondary": "#333333",
-  "background": "#f5f7fc",
-  "border-primary": "#e3e9f5",
-  "badge-primary": "#e3e9f5"
+  "text-primary": "#141414ff",
+  "text-secondary": "#1f1f1fff",
+  "background": "#a8c6fd11",
+  "border-primary": "#ebebeb",
+  "badge-primary": "#ccdeff79"
 }
 
 export const styles: Styles = {
@@ -61,7 +61,8 @@ export const styles: Styles = {
   },
   fullName: {
     fontSize: "20px",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    color: "black"
   },
   role: {
     fontSize: "12px",
@@ -139,7 +140,7 @@ export const styles: Styles = {
     position: "relative",
   },
   skillTitle: {
-    fontSize: "10px",
+    fontSize: "9px",
     letterSpacing: -0.6
   },
   skillItemsWrapper: {
@@ -176,7 +177,7 @@ export const styles: Styles = {
     fontWeight: "bold",
   },
   companyTitle: {
-    fontSize: "9.5px",
+    fontSize: "9.2px",
     letterSpacing: -0.6,
     fontWeight: "bold"
   },

@@ -13,16 +13,16 @@
         "path": "https://github.com/sararmjalal/"
       },
       {
-        "key": "whatsapp",
-        "title": "WhatsApp",
-        "value": "+973 3940 6745",
-        "path": "https://wa.me/97339406745"
-      },
-      {
         "key": "phone",
         "title": "Phone",
         "value": "+98 903 134 6086",
         "path": "tel:989031346086"
+      },
+      {
+        "key": "whatsapp",
+        "title": "WhatsApp",
+        "value": "+973 3940 6745",
+        "path": "https://wa.me/97339406745"
       },
       {
         "key": "email",

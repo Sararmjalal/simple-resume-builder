@@ -17,9 +17,9 @@ const ResumeV3Skills = ({ data, styles }: ResumeV1SkillsProps) => {
             return (
               <View key={key}>
                 <View style={styles.skillTitleWrapper}>
-                  <Text style={styles.skillTitleBullet}>
+                  {/* <Text style={styles.skillTitleBullet}>
                     {`•`}
-                  </Text>
+                  </Text> */}
                   <Text style={styles.skillTitle}>
                     {title}
                   </Text>

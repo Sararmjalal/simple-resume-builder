@@ -15,9 +15,9 @@ const ResumeV3Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
             return (
               <View>
                 <View key={title} style={styles.companyTitleWrapper}>
-                  <Text style={styles.companyTitleBullet}>
+                  {/* <Text style={styles.companyTitleBullet}>
                     {`•`}
-                  </Text>
+                  </Text> */}
                   <Text style={styles.companyTitle}>
                     {title}
                   </Text>
