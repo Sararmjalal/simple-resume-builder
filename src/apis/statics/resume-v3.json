@@ -40,28 +40,29 @@
   },
   "summary": {
     "title": "About",
-    "value": "Front-end developer with deep expertise in React, Next.js, and TypeScript, and a strong track record in building high-performance, scalable applications (including a +90% Lighthouse mobile score). Skilled in system design, roadmap planning, and team leadership, with experience delivering complex business features. Curious and adaptable, with growing knowledge of backend development (Node.js, Express)."
+    "value": "Front-end developer with deep expertise in React.js, Next.js, and TypeScript, and a strong track record in building high-performance, scalable applications (including a +90% Lighthouse mobile score). Skilled in system design, roadmap planning, and team leadership, with experience delivering complex business features. Curious and adaptable, with growing knowledge of backend development (Node.js, Express)."
   },
   "skills": {
     "title": "Skills and Technologies",
     "children": [
       {
         "key": "languages",
-        "title": "Languages & Frameworks",
+        "title": "Languages, Libraries & Frameworks",
         "items": [
           "JavaScript",
           "TypeScript",
           "React.js",
-          "Next.js",
           "React Router",
+          "Next.js",
           "Tailwind CSS",
           "Node.js",
-          "Express"
+          "Express",
+          "Npm Packaging"
         ]
       },
       {
-        "key": "libraries",
-        "title": "Libraries & Tools",
+        "key": "tools",
+        "title": "Tools",
         "items": [
           "Axios",
           "React Query",
@@ -69,10 +70,13 @@
           "SWR",
           "React Hook Form",
           "Zustand",
+          "Rollup",
           "Shadcn UI",
           "Material UI",
           "Docker",
-          "PWA"
+          "PWA",
+          "Zod",
+          "Sentry"
         ]
       },
       {
@@ -84,6 +88,17 @@
         ]
       },
       {
+        "key": "familiar",
+        "title": "Familiar with",
+        "items": [
+          "Jest",
+          "Turborepo",
+          "Micro-Frontend",
+          "Mongoose",
+          "MySQL"
+        ]
+      },
+      {
         "key": "cc",
         "title": "Core Competencies",
         "items": [
@@ -91,7 +106,9 @@
           "Technical Strategist",
           "Team leadership",
           "Problem-solving",
-          "Performance optimization"
+          "Performance optimization",
+          "Atomic Design (custom structure)",
+          "OOP-based architecture"
         ]
       }
     ]
@@ -105,7 +122,7 @@
           {
             "key": "technologies",
             "title": "Technologies",
-            "value": "TypeScript, React, Rollup, SASS, Browser History API"
+            "value": "TypeScript, React.js, Rollup, SASS, Browser History API"
           },
           {
             "key": "role",
@@ -130,7 +147,7 @@
           {
             "key": "technologies",
             "title": "Technologies",
-            "value": "TypeScript, React, React Pdf Renderer"
+            "value": "TypeScript, React.js, React Pdf Renderer"
           },
           {
             "key": "role",
@@ -166,7 +183,7 @@
               {
                 "key": "technologies",
                 "title": "Technologies",
-                "value": "TypeScript, React, Vite, TailwindCSS, React Router DOM, React Query, React Hook Form, Zod, Axios, Sentry"
+                "value": "TypeScript, React.js, Vite, TailwindCSS, React Router, React Query, React Hook Form, Zod, Sentry, Node.js"
               },
               {
                 "key": "role",
@@ -191,7 +208,7 @@
               {
                 "key": "technologies",
                 "title": "Technologies",
-                "value": "JavaScript, TypeScript, Tailwind CSS, React.js, Next.js, React-hook-form, Axios, React Query, Zustand, Docker"
+                "value": "JavaScript, TypeScript, Tailwind CSS, React.js, Next.js, React Hook Form, Axios, React Query, Zustand, Docker"
               },
               {
                 "key": "role",
@@ -216,7 +233,7 @@
               {
                 "key": "technologies",
                 "title": "Technologies",
-                "value": "JavaScript, Bootstrap, Chart.js, React, Redux, Webpack, jQuery, Sass"
+                "value": "JavaScript, Bootstrap, Chart.js, React.js, Redux, Webpack, jQuery, Sass"
               },
               {
                 "key": "role",
@@ -261,7 +278,7 @@
               {
                 "key": "technologies",
                 "title": "Technologies",
-                "value": "JavaScript, Bootstrap, Chart.js, React, Redux, Webpack, jQuery, Sass"
+                "value": "JavaScript, Bootstrap, Chart.js, React.js, Redux, Webpack, jQuery, Sass"
               },
               {
                 "key": "role",
@@ -306,7 +323,7 @@
               {
                 "key": "technologies",
                 "title": "Technologies",
-                "value": "React, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
+                "value": "React.js, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
               },
               {
                 "key": "role",
@@ -339,7 +356,7 @@
               {
                 "key": "technologies",
                 "title": "Technologies",
-                "value": "React, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
+                "value": "React.js, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
               },
               {
                 "key": "role",
@@ -364,7 +381,7 @@
               {
                 "key": "technologies",
                 "title": "Technologies",
-                "value": "React, Next.js, Material UI, SWR, Redux Toolkit, TinyMCE"
+                "value": "React.js, Next.js, Material UI, SWR, Redux Toolkit, TinyMCE"
               },
               {
                 "key": "role",
@@ -375,26 +392,6 @@
                 "key": "description",
                 "title": "Description",
                 "value": "A content management and publishing platform with a RESTful API."
-              }
-            ]
-          },
-          {
-            "title": "Makeen/Fineql",
-            "items": [
-              {
-                "key": "technologies",
-                "title": "Technologies",
-                "value": "React, GraphQL, Apollo, Tailwind CSS, Recharts, React Router, React Leaflet"
-              },
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Front-End Developer"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "Financial dashboard with data visualization and mapping using GraphQL."
               }
             ]
           }
