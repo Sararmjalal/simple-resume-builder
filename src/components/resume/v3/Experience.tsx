@@ -1,6 +1,6 @@
 import { Text, View } from "@react-pdf/renderer"
 
-const ResumeV3Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
+const ResumeV3Experience = ({ data, styles }: ResumeV3ExperienceProps) => {
 
   const { title, companies } = data
 
@@ -15,9 +15,6 @@ const ResumeV3Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
             return (
               <View>
                 <View key={title} style={styles.companyTitleWrapper}>
-                  {/* <Text style={styles.companyTitleBullet}>
-                    {`•`}
-                  </Text> */}
                   <Text style={styles.companyTitle}>
                     {title}
                   </Text>
@@ -29,18 +26,24 @@ const ResumeV3Experience = ({ data, styles }: ResumeV1ExperienceProps) => {
                   {`${startTime} - ${endTime || "Present"}`}
                 </Text>
                 {
-                  projects.map(({ title, items }) => {
+                  projects.map(({ title, description, items }) => {
                     return (
                       <View key={title} style={styles.projectWrapper}>
-                        <View style={styles.projectTitleWrapper}>
+                        <View style={{ ...styles.projectTitleWrapper, alignItems: "flex-start" }}>
                           <Text style={styles.projectTitleBullet}>
                             {`•`}
                           </Text>
                           <Text style={styles.projectTitle}>
                             {title}
                           </Text>
+                          {
+                            description &&
+                            <Text style={styles.projectDescValue}>
+                              {description}
+                            </Text>
+                          }
                         </View>
-                        {
+                        {items[0] &&
                           items.map(({ key, title, value }) => {
                             return (
                               <View

@@ -23,6 +23,11 @@ type ResumeV1ExperienceProps = {
   data: ResumeV1Experience
 }
 
+type ResumeV3ExperienceProps = {
+  styles: Styles
+  data: ResumeV1Experience
+}
+
 type ResumeV1SoftSkillsProps = {
   styles: Styles
   data: ResumeV1SoftSkills

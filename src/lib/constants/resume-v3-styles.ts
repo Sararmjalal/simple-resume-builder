@@ -2,11 +2,11 @@ import { Styles } from "@react-pdf/renderer";
 
 const colors = {
   "primary": "",
-  "text-primary": "#141414ff",
-  "text-secondary": "#1f1f1fff",
+  "text-primary": "#2c2c2cff",
+  "text-secondary": "#3b3b3bff",
   "background": "#a8c6fd11",
   "border-primary": "#ebebeb",
-  "badge-primary": "#ccdeff79"
+  "badge-primary": "#c9c9c93a"
 }
 
 export const styles: Styles = {
@@ -23,13 +23,15 @@ export const styles: Styles = {
   devider: {
     width: "100%",
     height: "1px",
-    padding: "8px 0",
+    padding: "6px 0",
     marginBottom: "8px",
     borderBottom: `1px solid ${colors["border-primary"]}`
   },
   blockTitle: {
-    fontSize: "11px",
+    fontSize: "12px",
     fontWeight: "bold",
+    color: "#f76421ff",
+
     letterSpacing: -0.6
   },
   text: {
@@ -62,7 +64,7 @@ export const styles: Styles = {
   fullName: {
     fontSize: "20px",
     fontWeight: "bold",
-    color: "black"
+    color: "#f76421ff"
   },
   role: {
     fontSize: "12px",
@@ -85,10 +87,10 @@ export const styles: Styles = {
     gap: "3px"
   },
   linkedIn: {
-    width: "80px",
+    width: "60px",
   },
   github: {
-    width: "75px"
+    width: "60px"
   },
   whatsapp: {
     width: "90px"
@@ -162,7 +164,7 @@ export const styles: Styles = {
     display: "flex",
     flexDirection: "column",
     gap: "8px",
-    marginTop: "8px"
+    marginTop: "8px",
   },
   companyTitleWrapper: {
     display: "flex",
@@ -176,7 +178,7 @@ export const styles: Styles = {
     fontWeight: "bold",
   },
   companyTitle: {
-    fontSize: "9.2px",
+    fontSize: "10px",
     letterSpacing: -0.6,
     fontWeight: "bold"
   },
@@ -186,20 +188,18 @@ export const styles: Styles = {
   },
   companyDuration: {
     fontWeight: "normal",
-    fontStyle: "italic",
     fontSize: "8px",
-    marginBottom: "8px",
-    marginLeft: "8px"
+    marginBottom: "6px",
+    marginLeft: ""
   },
   projectWrapper: {
-    marginLeft: "6px",
-    marginBottom: "5px"
+    marginBottom: "4px"
   },
   projectTitleWrapper: {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    gap: "2px",
+    gap: "1px",
   },
   projectTitleBullet: {
     fontSize: "9px",
@@ -220,7 +220,8 @@ export const styles: Styles = {
     fontWeight: "semibold"
   },
   projectDescValue: {
-    fontWeight: "normal"
+    fontWeight: "normal",
+    fontSize: "9px"
   },
   technologiesWrapper: {
     display: "flex",

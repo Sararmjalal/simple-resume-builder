@@ -4,18 +4,18 @@
     "role": "Front-End Engineer",
     "location": "",
     "bornOn": "",
-    "about": "Born on January 2000, Bahraini national, currently based in Iran, Tehran. Fluent in Persian (native) and proficient in English.",
+    "about": "Tehran, Iran | Bahraini National | Fluent: Persian (native), English (proficient)",
     "contact": [
       {
         "key": "github",
         "title": "Github",
-        "value": "/sararmjalal",
+        "value": "Github",
         "path": "https://github.com/sararmjalal"
       },
       {
         "key": "linkedIn",
         "title": "LinkedIn",
-        "value": "/in/sararmjalal",
+        "value": "LinkedIn",
         "path": "https://linkedIn.com/in/sararmjalal"
       },
       {
@@ -46,52 +46,43 @@
   },
   "summary": {
     "title": "About",
-    "value": "Front-end developer with deep expertise in React.js, Next.js, and TypeScript, and a strong track record in building high-performance, scalable applications (including a +90% Lighthouse mobile score). Skilled in system design, roadmap planning, and team leadership, with experience delivering complex business features. Curious and adaptable, with growing knowledge of backend development (Node.js, Express)."
+    "value": "Front-end engineer with expertise in React.js, Next.js, and TypeScript, delivering high-performance, scalable applications. Skilled in system design, performance optimization, and team leadership, with growing backend knowledge in Node.js & Express."
   },
   "skills": {
-    "title": "Skills and Technologies",
+    "title": "Core Skills",
     "children": [
       {
-        "key": "languages",
-        "title": "Languages, Libraries & Frameworks",
+        "key": "frontend",
+        "title": "Core Frontend Skills",
         "items": [
+          "React.js",
+          "Next.js",
           "JavaScript",
           "TypeScript",
-          "React.js",
-          "React Router",
-          "Next.js",
           "Tailwind CSS",
-          "Material UI",
-          "Node.js",
-          "Express",
-          "Npm Packaging"
+          "Material UI"
+        ]
+      },
+      {
+        "key": "data",
+        "title": "Data & State Management",
+        "items": [
+          "React Query",
+          "SWR",
+          "Zustand",
+          "Redux Toolkit",
+          "React Hook Form"
         ]
       },
       {
         "key": "tools",
-        "title": "Tools",
+        "title": "Dev Tools",
         "items": [
-          "Axios",
-          "SWR",
-          "React Query",
-          "Zustand",
-          "Redux Toolkit",
-          "React Hook Form",
-          "Rollup",
-          "CVA",
-          "Shadcn UI",
           "Docker",
+          "Git",
+          "Axios",
           "PWA",
-          "Zod",
           "Sentry"
-        ]
-      },
-      {
-        "key": "vc",
-        "title": "Project Management & Version Control",
-        "items": [
-          "Taskulu",
-          "Git"
         ]
       },
       {
@@ -101,21 +92,76 @@
           "Jest",
           "Turborepo",
           "Micro-Frontend",
+          "Node.js",
+          "Express",
           "Mongoose",
           "MySQL"
         ]
       },
       {
-        "key": "cc",
-        "title": "Core Competencies",
+        "key": "other",
+        "title": "Other Strengths",
         "items": [
-          "System Architect",
-          "Technical Strategist",
+          "System Design",
           "Team leadership",
-          "Problem-solving",
-          "Performance optimization",
-          "OOP-based architecture",
-          "Atomic Design (custom structure)"
+          "Performance optimization"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "companies": [
+      {
+        "title": "Nikaat Corp",
+        "description": "Hybrid, Tehran",
+        "startTime": "February 2023",
+        "endTime": "",
+        "role": "Front-End Engineer",
+        "projects": [
+          {
+            "title": "",
+            "description": "Architected a scalable, offline-first quiz app with multi-language support, modular theming, and SEO-friendly routing, ensuring long-term maintainability.",
+            "items": []
+          },
+          {
+            "title": "",
+            "description": "Boosted mobile performance by achieving a 90%+ Lighthouse score, built robust form handling, and automated cloud deployments with Docker.",
+            "items": []
+          },
+          {
+            "title": "",
+            "description": "Led cross-functional teams to deliver integrated platforms for job seekers, students, and entrepreneurs, improving collaboration and delivery speed.",
+            "items": []
+          },
+          {
+            "title": "",
+            "description": "Developed the company’s first progressive web app (PWA), creating a native-like experience without relying on external libraries.",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "Makeen Ideal Institution",
+        "description": "On-Site, Tehran",
+        "startTime": "Jun 2022",
+        "endTime": "Jan 2023",
+        "projects": [
+          {
+            "title": "",
+            "description": "Built a Next.js e-commerce app with advanced product forms, enhancing usability and reducing input errors.",
+            "items": []
+          },
+          {
+            "title": "",
+            "description": "Resolved backend integration issues in Node.js, significantly improving system reliability.",
+            "items": []
+          },
+          {
+            "title": "",
+            "description": "Developed a content publishing platform with REST API and a financial dashboard with GraphQL-based data visualization, enabling data-driven insights.",
+            "items": []
+          }
         ]
       }
     ]
@@ -124,253 +170,21 @@
     "title": "Self Experience",
     "projects": [
       {
-        "title": "React Modal Pro - NPM Package",
-        "path": "https://www.npmjs.com/package/react-modal-pro",
-        "items": [
-          {
-            "key": "role",
-            "title": "Role",
-            "value": "Front-End Developer"
-          },
-          {
-            "key": "description",
-            "title": "Description",
-            "value": "A lightweight React library for managing dialogs, sidebars, and sheets, with full customization and native-like back navigation that preserves browser history without side effects."
-          },
-          {
-            "key": "achievements",
-            "title": "Key Achievements",
-            "value": "Implemented native-like back navigation behavior, preserving browser history without side effects, enabled full customization of modal behavior and styling, and packaged and published as an npm library for easy integration into React & Next.js projects."
-          }
-        ]
+        "title": "Simple Resume Builder:",
+        "description": "Built a React + TypeScript tool for generating PDF resumes from JSON input.",
+        "path": "https://github.com/Sararmjalal/simple-resume-builder",
+        "items": []
       },
       {
-        "title": "Simple Resume Builder",
-        "path": "https://github.com/Sararmjalal/simple-resume-builder",
-        "items": [
-          {
-            "key": "role",
-            "title": "Role",
-            "value": "Front-End Developer"
-          },
-          {
-            "key": "description",
-            "title": "Description",
-            "value": "a simple react-app with typescript for generating resume in pdf format (using react-pdf-renderer)"
-          },
-          {
-            "key": "achievements",
-            "title": "Key Achievements",
-            "value": "Faster and optimized solution for cv updates through JSON files."
-          }
-        ]
+        "title": "React Modal Pro (NPM Package):",
+        "description": "Created a lightweight modal library with native-like back navigation; published to npm.",
+        "path": "https://www.npmjs.com/package/react-modal-pro",
+        "items": []
       }
     ]
   },
-  "experience": {
-    "title": "Professional Experience",
-    "companies": [
-      {
-        "title": "Nikaat Corp",
-        "description": "Hybrid, Tehran, Iran",
-        "startTime": "February 2023",
-        "endTime": "",
-        "projects": [
-          {
-            "title": "Nikaat/Quiz-CS",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "System Architect & Front-End Engineer"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "A scalable and resilient client-side quiz application built with pure React.js and minimal dependencies, ensuring long-term maintainability and performance"
-              },
-              {
-                "key": "achievements",
-                "title": "Key Achievements",
-                "value": "Designed with an offline-first architecture and full mobile-first optimization, it supports seamless multi-language localization, flexible theming, and dynamic route handling for SEO-friendly growth. Its modular design system, strict separation of concerns, and strong caching strategy enable rapid customization, white-label opportunities, and future AI-driven enhancements."
-              }
-            ]
-          },
-          {
-            "title": "Nikaat/Skenas",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Front-End Developer"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "A banking super app focused on inquiries for credit and transactions."
-              },
-              {
-                "key": "achievements",
-                "title": "Key Achievements",
-                "value": "Achieved a 90%+ Lighthouse score on mobile, implemented professional form handling solutions, and streamlined cloud deployment through automated Docker builds."
-              }
-            ]
-          },
-          {
-            "title": "Nikaat/Viracc-Panel",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Development Team Lead"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "An internal acceleration platform for startups, job seekers, students, and entrepreneurs, providing job search, business management, and financial tools."
-              },
-              {
-                "key": "achievements",
-                "title": "Highlights",
-                "value": "Led team and data structuring; collaborated with Product Manager; managed front-end/back-end responsibilities."
-              }
-            ]
-          },
-          {
-            "title": "Nikaat/Viracup",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Development Team Lead"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "A contest platform integrated with Virac Panel, allowing dynamic content, images, and registration forms."
-              }
-            ]
-          },
-          {
-            "title": "Nikaat/Viracc-School",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Development Team Lead"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "Connected to Virac Panel for students to access courses and resources."
-              }
-            ]
-          },
-          {
-            "title": "Nikaat/Quiz-V1",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Front-End Developer"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "A modular landing page template for multiple Nikaat projects."
-              },
-              {
-                "key": "achievements",
-                "title": "Key Achievements",
-                "value": "Delivered end-to-end front-end and back-end integration, enabling element-level connectivity."
-              }
-            ]
-          },
-          {
-            "title": "Nikaat/Panel",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Front-End Developer"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "A PWA panel for Nikaat users with diet and workout programs, emulating a native app experience."
-              },
-              {
-                "key": "achievements",
-                "title": "Highlights",
-                "value": "Developed the first PWA for the platform, creating a native-like experience without external libraries."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Makeen Ideal Institution",
-        "description": "On-Site, Tehran, Iran",
-        "startTime": "June 2022",
-        "endTime": "January 2023",
-        "projects": [
-          {
-            "title": "Makeen/E-commerce",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Front-End Developer"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "A simple e-commerce app powered by Next.js"
-              },
-              {
-                "key": "achievements",
-                "title": "Key Achievements",
-                "value": "Created a complex product listing form using React Hook Form with linked categories/variables; resolved back-end issues in Node.js."
-              }
-            ]
-          },
-          {
-            "title": "Makeen/Blogext",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Front-End Developer"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "A content management and publishing platform with a RESTful API."
-              }
-            ]
-          },
-          {
-            "title": "Makeen/Fineql",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Front-End Developer"
-              },
-              {
-                "key": "duration",
-                "title": "Duration",
-                "value": "2 weeks"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "Financial dashboard with data visualization and mapping using GraphQL."
-              }
-            ]
-          }
-        ]
-      }
-    ]
+  "highlight": {
+    "title": "Key Strengths",
+    "value": "Proven ability to design scalable systems, lead teams, and deliver high-performance front-end solutions."
   }
 }

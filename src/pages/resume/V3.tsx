@@ -5,8 +5,8 @@ import ResumeV3Skills from "../../components/resume/v3/Skills"
 import ResumeV3Summary from "../../components/resume/v3/Summary"
 import ResumeV3Experience from "../../components/resume/v3/Experience"
 import ResumeV3PersonalInfo from "../../components/resume/v3/PersonalInfo"
-import { Document, PDFViewer, Page, StyleSheet, View, Font, } from "@react-pdf/renderer"
 import ResumeV3SelfExperience from "../../components/resume/v3/SelfExperience"
+import { Document, PDFViewer, Page, StyleSheet, View, Font, } from "@react-pdf/renderer"
 
 Font.register(resumeFonts.openSans)
 
@@ -40,14 +40,14 @@ const ResumeV3 = () => {
               data={resumeV3Data.skills}
             />
             <View style={styles.devider} />
-            <ResumeV3SelfExperience
-              styles={styles}
-              data={resumeV3Data.selfExperience}
-            />
-            <View style={styles.devider} />
             <ResumeV3Experience
               styles={styles}
               data={resumeV3Data.experience}
+            />
+            <View style={styles.devider} />
+            <ResumeV3SelfExperience
+              styles={styles}
+              data={resumeV3Data.selfExperience}
             />
           </View>
         </Page>

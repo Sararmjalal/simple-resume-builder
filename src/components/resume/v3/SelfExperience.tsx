@@ -12,15 +12,21 @@ const ResumeV3SelfExperience = ({ data, styles }: ResumeV3SelfExperienceProps) =
       </Text>
       <View style={styles.companiesWrapper}>
         {
-          projects.map(({ title, path = "#", items }) => {
+          projects.map(({ title, description, path = "#", items }) => {
             return (
-              <View key={title} style={{ ...styles.projectWrapper }}>
+              <View key={title} style={{ ...styles.projectWrapper, marginBottom: "0px" }}>
                 <Link href={path} style={{ color: "inherit", textDecoration: "none" }}>
                   <View style={styles.projectTitleWrapper}>
                     <LinkV1 />
                     <Text style={styles.projectTitle}>
                       {title}
                     </Text>
+                    {
+                      description &&
+                      <Text style={{ ...styles.projectDescValue, marginLeft: "1px" }}>
+                        {description}
+                      </Text>
+                    }
                   </View>
                 </Link>
                 {
