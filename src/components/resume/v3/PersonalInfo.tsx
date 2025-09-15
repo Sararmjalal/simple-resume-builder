@@ -65,7 +65,9 @@ const ResumeV3PersonalInfo = ({ data, styles }: ResumeV3PersonalInfoProps) => {
                   }}
                 >
                   {icons[key]}
-                  <Text style={styles.contactItem}>
+                  <Text style={{
+                    ...styles.contactItem,
+                  }}>
                     {value}
                   </Text>
                 </Link>

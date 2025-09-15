@@ -1,4 +1,5 @@
-import { Text, View } from "@react-pdf/renderer"
+import { Link, Text, View } from "@react-pdf/renderer"
+import { LinkV1 } from "../../../assets/react-pdf-icons/LinkV1"
 
 const ResumeV3SelfExperience = ({ data, styles }: ResumeV3SelfExperienceProps) => {
 
@@ -11,17 +12,17 @@ const ResumeV3SelfExperience = ({ data, styles }: ResumeV3SelfExperienceProps) =
       </Text>
       <View style={styles.companiesWrapper}>
         {
-          projects.map(({ title, items }) => {
+          projects.map(({ title, path = "#", items }) => {
             return (
-              <View key={title} style={styles.projectWrapper}>
-                <View style={styles.projectTitleWrapper}>
-                  <Text style={styles.projectTitleBullet}>
-                    {`•`}
-                  </Text>
-                  <Text style={styles.projectTitle}>
-                    {title}
-                  </Text>
-                </View>
+              <View key={title} style={{ ...styles.projectWrapper }}>
+                <Link href={path} style={{ color: "inherit", textDecoration: "none" }}>
+                  <View style={styles.projectTitleWrapper}>
+                    <LinkV1 />
+                    <Text style={styles.projectTitle}>
+                      {title}
+                    </Text>
+                  </View>
+                </Link>
                 {
                   items.map(({ key, title, value }) => {
                     return (
@@ -60,7 +61,7 @@ const ResumeV3SelfExperience = ({ data, styles }: ResumeV3SelfExperienceProps) =
           })
         }
       </View>
-    </View>
+    </View >
   )
 }
 

@@ -80,10 +80,12 @@ export const styles: Styles = {
     width: "100%",
   },
   contactItemContainer: {
-    width: "80px",
     display: "flex",
     flexDirection: "row",
     gap: "3px"
+  },
+  linkedIn: {
+    width: "80px",
   },
   github: {
     width: "75px"
@@ -92,16 +94,13 @@ export const styles: Styles = {
     width: "90px"
   },
   phone: {
-    width: "100px"
+    width: "90px"
   },
   portfolio: {
     width: "100px"
   },
   email: {
     width: "124px"
-  },
-  linkedIn: {
-    width: "100px"
   },
   location: {
     width: "100%"
@@ -118,7 +117,7 @@ export const styles: Styles = {
     width: "90%"
   },
   skillsContainer: {
-    width: "90%",
+    width: "95%",
   },
   skillsWrapper: {
     display: "flex",

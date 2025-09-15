@@ -46,6 +46,7 @@ interface ResumeV1ProjectItem {
 
 interface ResumeV1Project {
   title: string
+  path?: string
   items: ResumeV1ProjectItem[]
 }
 

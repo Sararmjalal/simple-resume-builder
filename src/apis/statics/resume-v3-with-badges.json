@@ -9,25 +9,19 @@
       {
         "key": "github",
         "title": "Github",
-        "value": "/sararmjalal",
-        "path": "https://github.com/sararmjalal"
-      },
-      {
-        "key": "linkedIn",
-        "title": "LinkedIn",
-        "value": "/in/sararmjalal",
-        "path": "https://linkedIn.com/in/sararmjalal"
+        "value": "Sararmjalal",
+        "path": "https://github.com/sararmjalal/"
       },
       {
         "key": "phone",
         "title": "Phone",
-        "value": "+989031346086",
+        "value": "+98 903 134 6086",
         "path": "tel:989031346086"
       },
       {
         "key": "whatsapp",
         "title": "WhatsApp",
-        "value": "+97339406745",
+        "value": "+973 3940 6745",
         "path": "https://wa.me/97339406745"
       },
       {
@@ -125,8 +119,12 @@
     "projects": [
       {
         "title": "React Modal Pro - NPM Package",
-        "path": "https://www.npmjs.com/package/react-modal-pro",
         "items": [
+          {
+            "key": "technologies",
+            "title": "Technologies",
+            "value": "TypeScript, React.js, Rollup, SASS, Browser History API"
+          },
           {
             "key": "role",
             "title": "Role",
@@ -146,8 +144,12 @@
       },
       {
         "title": "Simple Resume Builder",
-        "path": "https://github.com/Sararmjalal/simple-resume-builder",
         "items": [
+          {
+            "key": "technologies",
+            "title": "Technologies",
+            "value": "TypeScript, React.js, React Pdf Renderer"
+          },
           {
             "key": "role",
             "title": "Role",
@@ -180,6 +182,11 @@
             "title": "Nikaat/Quiz-CS",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "TypeScript, React.js, Vite, TailwindCSS, React Router, React Query, React Hook Form, Zod, Sentry, Node.js"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "System Architect & Front-End Engineer"
@@ -199,6 +206,11 @@
           {
             "title": "Nikaat/Skenas",
             "items": [
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "JavaScript, TypeScript, Tailwind CSS, React.js, Next.js, React Hook Form, Axios, React Query, Zustand, Docker"
+              },
               {
                 "key": "role",
                 "title": "Role",
@@ -220,6 +232,11 @@
             "title": "Nikaat/Viracc-Panel",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "JavaScript, Bootstrap, Chart.js, React.js, Redux, Webpack, jQuery, Sass"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Development Team Lead"
@@ -240,6 +257,11 @@
             "title": "Nikaat/Viracup",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": " JavaScript, Tailwind CSS, React.js, Axios, React Query"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Development Team Lead"
@@ -255,6 +277,11 @@
             "title": "Nikaat/Viracc-School",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "JavaScript, Bootstrap, Chart.js, React.js, Redux, Webpack, jQuery, Sass"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Development Team Lead"
@@ -267,8 +294,13 @@
             ]
           },
           {
-            "title": "Nikaat/Quiz-V1",
+            "title": "Nikaat/Landing",
             "items": [
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "TypeScript, React.js, Next.js, Material UI, SWR, Axios, Redux Toolkit"
+              },
               {
                 "key": "role",
                 "title": "Role",
@@ -289,6 +321,11 @@
           {
             "title": "Nikaat/Panel",
             "items": [
+              {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React.js, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
+              },
               {
                 "key": "role",
                 "title": "Role",
@@ -318,6 +355,11 @@
             "title": "Makeen/E-commerce",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React.js, Next.js, TypeScript, React Query, Redux Toolkit, Tailwind CSS"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Front-End Developer"
@@ -338,6 +380,11 @@
             "title": "Makeen/Blogext",
             "items": [
               {
+                "key": "technologies",
+                "title": "Technologies",
+                "value": "React.js, Next.js, Material UI, SWR, Redux Toolkit, TinyMCE"
+              },
+              {
                 "key": "role",
                 "title": "Role",
                 "value": "Front-End Developer"
@@ -346,26 +393,6 @@
                 "key": "description",
                 "title": "Description",
                 "value": "A content management and publishing platform with a RESTful API."
-              }
-            ]
-          },
-          {
-            "title": "Makeen/Fineql",
-            "items": [
-              {
-                "key": "role",
-                "title": "Role",
-                "value": "Front-End Developer"
-              },
-              {
-                "key": "duration",
-                "title": "Duration",
-                "value": "2 weeks"
-              },
-              {
-                "key": "description",
-                "title": "Description",
-                "value": "Financial dashboard with data visualization and mapping using GraphQL."
               }
             ]
           }
