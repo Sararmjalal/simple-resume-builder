@@ -30,9 +30,8 @@ export const styles: Styles = {
   blockTitle: {
     fontSize: "12px",
     fontWeight: "bold",
-    color: "#f76421ff",
 
-    letterSpacing: -0.6
+    letterSpacing: -0.3
   },
   text: {
     fontSize: "9px",
@@ -64,7 +63,7 @@ export const styles: Styles = {
   fullName: {
     fontSize: "20px",
     fontWeight: "bold",
-    color: "#f76421ff"
+    color: "#000080"
   },
   role: {
     fontSize: "12px",
