@@ -59,8 +59,12 @@
           "Next.js",
           "JavaScript",
           "TypeScript",
+          "jQuery",
           "Tailwind CSS",
-          "Material UI"
+          "Material UI",
+          "Bootstrap5",
+          "RESTful APIs",
+          "GraphQL"
         ]
       },
       {
@@ -89,9 +93,10 @@
         "key": "familiar",
         "title": "Familiar with",
         "items": [
-          "Jest",
+          "Sokect.IO",
           "Turborepo",
           "Micro-Frontend",
+          "Jest",
           "Node.js",
           "Express",
           "Mongoose",
@@ -113,10 +118,24 @@
     "title": "Experience",
     "companies": [
       {
+        "title": "Classino",
+        "description": "Hybrid, Tehran",
+        "startTime": "November 2025",
+        "endTime": "",
+        "role": "Front-End Developer",
+        "projects": [
+          {
+            "title": "",
+            "description": "Developing the front end of an educational platform with a Duolingo-inspired design system",
+            "items": []
+          }
+        ]
+      },
+      {
         "title": "Nikaat Corp",
         "description": "Hybrid, Tehran",
         "startTime": "February 2023",
-        "endTime": "",
+        "endTime": "November 2025",
         "role": "Front-End Engineer",
         "projects": [
           {

@@ -23,14 +23,14 @@ export const styles: Styles = {
   devider: {
     width: "100%",
     height: "1px",
-    padding: "6px 0",
-    marginBottom: "8px",
+    padding: "4px 0",
+    marginBottom: "4px",
     borderBottom: `1px solid ${colors["border-primary"]}`
   },
   blockTitle: {
     fontSize: "12px",
     fontWeight: "bold",
-
+    marginBottom: "-4px",
     letterSpacing: -0.3
   },
   text: {
