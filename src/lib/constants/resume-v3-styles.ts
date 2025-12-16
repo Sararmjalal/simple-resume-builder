@@ -23,8 +23,8 @@ export const styles: Styles = {
   devider: {
     width: "100%",
     height: "1px",
-    padding: "4px 0",
-    marginBottom: "4px",
+    padding: "5px 0",
+    marginBottom: "6px",
     borderBottom: `1px solid ${colors["border-primary"]}`
   },
   blockTitle: {
@@ -61,8 +61,8 @@ export const styles: Styles = {
     gap: "4px"
   },
   fullName: {
-    fontSize: "20px",
-    fontWeight: "bold",
+    fontSize: "18px",
+    fontWeight: 700,
     color: "#000080"
   },
   role: {
